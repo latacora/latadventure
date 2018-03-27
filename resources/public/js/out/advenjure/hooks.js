@@ -8,14 +8,14 @@ goog.require('advenjure.eval');
  */
 advenjure.hooks.execute = (function advenjure$hooks$execute(var_args){
 var args__21537__auto__ = [];
-var len__21530__auto___36384 = arguments.length;
-var i__21531__auto___36385 = (0);
+var len__21530__auto___36389 = arguments.length;
+var i__21531__auto___36394 = (0);
 while(true){
-if((i__21531__auto___36385 < len__21530__auto___36384)){
-args__21537__auto__.push((arguments[i__21531__auto___36385]));
+if((i__21531__auto___36394 < len__21530__auto___36389)){
+args__21537__auto__.push((arguments[i__21531__auto___36394]));
 
-var G__36386 = (i__21531__auto___36385 + (1));
-i__21531__auto___36385 = G__36386;
+var G__36395 = (i__21531__auto___36394 + (1));
+i__21531__auto___36394 = G__36395;
 continue;
 } else {
 }
@@ -43,12 +43,12 @@ return cljs.core.reduce.call(null,apply_hook,game_state,hooks);
 
 advenjure.hooks.execute.cljs$lang$maxFixedArity = (2);
 
-advenjure.hooks.execute.cljs$lang$applyTo = (function (seq36381){
-var G__36382 = cljs.core.first.call(null,seq36381);
-var seq36381__$1 = cljs.core.next.call(null,seq36381);
-var G__36383 = cljs.core.first.call(null,seq36381__$1);
-var seq36381__$2 = cljs.core.next.call(null,seq36381__$1);
-return advenjure.hooks.execute.cljs$core$IFn$_invoke$arity$variadic(G__36382,G__36383,seq36381__$2);
+advenjure.hooks.execute.cljs$lang$applyTo = (function (seq36380){
+var G__36381 = cljs.core.first.call(null,seq36380);
+var seq36380__$1 = cljs.core.next.call(null,seq36380);
+var G__36382 = cljs.core.first.call(null,seq36380__$1);
+var seq36380__$2 = cljs.core.next.call(null,seq36380__$1);
+return advenjure.hooks.execute.cljs$core$IFn$_invoke$arity$variadic(G__36381,G__36382,seq36380__$2);
 });
 
 /**
@@ -56,14 +56,14 @@ return advenjure.hooks.execute.cljs$core$IFn$_invoke$arity$variadic(G__36382,G__
  */
 advenjure.hooks.eval_precondition = (function advenjure$hooks$eval_precondition(var_args){
 var args__21537__auto__ = [];
-var len__21530__auto___36389 = arguments.length;
-var i__21531__auto___36390 = (0);
+var len__21530__auto___36428 = arguments.length;
+var i__21531__auto___36429 = (0);
 while(true){
-if((i__21531__auto___36390 < len__21530__auto___36389)){
-args__21537__auto__.push((arguments[i__21531__auto___36390]));
+if((i__21531__auto___36429 < len__21530__auto___36428)){
+args__21537__auto__.push((arguments[i__21531__auto___36429]));
 
-var G__36391 = (i__21531__auto___36390 + (1));
-i__21531__auto___36390 = G__36391;
+var G__36434 = (i__21531__auto___36429 + (1));
+i__21531__auto___36429 = G__36434;
 continue;
 } else {
 }
@@ -91,10 +91,10 @@ return condition__$1;
 
 advenjure.hooks.eval_precondition.cljs$lang$maxFixedArity = (1);
 
-advenjure.hooks.eval_precondition.cljs$lang$applyTo = (function (seq36387){
-var G__36388 = cljs.core.first.call(null,seq36387);
-var seq36387__$1 = cljs.core.next.call(null,seq36387);
-return advenjure.hooks.eval_precondition.cljs$core$IFn$_invoke$arity$variadic(G__36388,seq36387__$1);
+advenjure.hooks.eval_precondition.cljs$lang$applyTo = (function (seq36404){
+var G__36405 = cljs.core.first.call(null,seq36404);
+var seq36404__$1 = cljs.core.next.call(null,seq36404);
+return advenjure.hooks.eval_precondition.cljs$core$IFn$_invoke$arity$variadic(G__36405,seq36404__$1);
 });
 
 /**
@@ -131,4 +131,4 @@ var dir_condition = direction.call(null,room);
 return advenjure.hooks.eval_precondition.call(null,dir_condition,game_state);
 });
 
-//# sourceMappingURL=hooks.js.map?rel=1522121092530
+//# sourceMappingURL=hooks.js.map?rel=1522181436112

@@ -17,7 +17,9 @@
 ;; kitchen
 
 (def server
-  (i/make "Server" "Big rectangular metal box with lights. It is making noise and is warm to the touch. Best not wake it up. It might get angry."))
+  (i/make
+   "server"
+   "Big rectangular metal box with lights. It is making noise and is warm to the touch. Best not wake it up. It might get angry."))
 
 (defn make-food
   [name description]
@@ -25,7 +27,7 @@
 
 (def fridge
   (i/make
-   "Fridge"
+   ["fridge" "refrigerator"]
    "A metal box with a glass front. It appears to be a container. The glass is cold to the touch."
    :items #{(make-food "bresaola" "a delicious cut of beef")
             (make-food "country ham" "a delicious cut of pork")}))

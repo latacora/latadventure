@@ -37,11 +37,11 @@ var this__21077__auto____$1 = this;
 return cljs.core._lookup.call(null,this__21077__auto____$1,k__21078__auto__,null);
 });
 
-advenjure.rooms.Room.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__21079__auto__,k22970,else__21080__auto__){
+advenjure.rooms.Room.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__21079__auto__,k23225,else__21080__auto__){
 var self__ = this;
 var this__21079__auto____$1 = this;
-var G__22979 = (((k22970 instanceof cljs.core.Keyword))?k22970.fqn:null);
-switch (G__22979) {
+var G__23243 = (((k23225 instanceof cljs.core.Keyword))?k23225.fqn:null);
+switch (G__23243) {
 case "name":
 return self__.name;
 
@@ -51,7 +51,7 @@ return self__.description;
 
 break;
 default:
-return cljs.core.get.call(null,self__.__extmap,k22970,else__21080__auto__);
+return cljs.core.get.call(null,self__.__extmap,k23225,else__21080__auto__);
 
 }
 });
@@ -69,10 +69,10 @@ return cljs.core.pr_sequential_writer.call(null,writer__21092__auto__,pr_pair__2
 
 advenjure.rooms.Room.prototype.cljs$core$IIterable$ = true;
 
-advenjure.rooms.Room.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__22969){
+advenjure.rooms.Room.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__23224){
 var self__ = this;
-var G__22969__$1 = this;
-return (new cljs.core.RecordIter((0),G__22969__$1,2,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"description","description",-1428560544)], null),cljs.core._iterator.call(null,self__.__extmap)));
+var G__23224__$1 = this;
+return (new cljs.core.RecordIter((0),G__23224__$1,2,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"description","description",-1428560544)], null),cljs.core._iterator.call(null,self__.__extmap)));
 });
 
 advenjure.rooms.Room.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__21075__auto__){
@@ -138,18 +138,18 @@ return (new advenjure.rooms.Room(self__.name,self__.description,self__.__meta,cl
 }
 });
 
-advenjure.rooms.Room.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__21084__auto__,k__21085__auto__,G__22969){
+advenjure.rooms.Room.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__21084__auto__,k__21085__auto__,G__23224){
 var self__ = this;
 var this__21084__auto____$1 = this;
-var pred__23009 = cljs.core.keyword_identical_QMARK_;
-var expr__23010 = k__21085__auto__;
-if(cljs.core.truth_(pred__23009.call(null,new cljs.core.Keyword(null,"name","name",1843675177),expr__23010))){
-return (new advenjure.rooms.Room(G__22969,self__.description,self__.__meta,self__.__extmap,null));
+var pred__23259 = cljs.core.keyword_identical_QMARK_;
+var expr__23260 = k__21085__auto__;
+if(cljs.core.truth_(pred__23259.call(null,new cljs.core.Keyword(null,"name","name",1843675177),expr__23260))){
+return (new advenjure.rooms.Room(G__23224,self__.description,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__23009.call(null,new cljs.core.Keyword(null,"description","description",-1428560544),expr__23010))){
-return (new advenjure.rooms.Room(self__.name,G__22969,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__23259.call(null,new cljs.core.Keyword(null,"description","description",-1428560544),expr__23260))){
+return (new advenjure.rooms.Room(self__.name,G__23224,self__.__meta,self__.__extmap,null));
 } else {
-return (new advenjure.rooms.Room(self__.name,self__.description,self__.__meta,cljs.core.assoc.call(null,self__.__extmap,k__21085__auto__,G__22969),null));
+return (new advenjure.rooms.Room(self__.name,self__.description,self__.__meta,cljs.core.assoc.call(null,self__.__extmap,k__21085__auto__,G__23224),null));
 }
 }
 });
@@ -160,10 +160,10 @@ var this__21089__auto____$1 = this;
 return cljs.core.seq.call(null,cljs.core.concat.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"name","name",1843675177),self__.name],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"description","description",-1428560544),self__.description],null))], null),self__.__extmap));
 });
 
-advenjure.rooms.Room.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__21076__auto__,G__22969){
+advenjure.rooms.Room.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__21076__auto__,G__23224){
 var self__ = this;
 var this__21076__auto____$1 = this;
-return (new advenjure.rooms.Room(self__.name,self__.description,G__22969,self__.__extmap,self__.__hash));
+return (new advenjure.rooms.Room(self__.name,self__.description,G__23224,self__.__extmap,self__.__hash));
 });
 
 advenjure.rooms.Room.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__21082__auto__,entry__21083__auto__){
@@ -194,20 +194,20 @@ advenjure.rooms.__GT_Room = (function advenjure$rooms$__GT_Room(name,description
 return (new advenjure.rooms.Room(name,description,null,null,null));
 });
 
-advenjure.rooms.map__GT_Room = (function advenjure$rooms$map__GT_Room(G__22978){
-return (new advenjure.rooms.Room(new cljs.core.Keyword(null,"name","name",1843675177).cljs$core$IFn$_invoke$arity$1(G__22978),new cljs.core.Keyword(null,"description","description",-1428560544).cljs$core$IFn$_invoke$arity$1(G__22978),null,cljs.core.dissoc.call(null,G__22978,new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"description","description",-1428560544)),null));
+advenjure.rooms.map__GT_Room = (function advenjure$rooms$map__GT_Room(G__23231){
+return (new advenjure.rooms.Room(new cljs.core.Keyword(null,"name","name",1843675177).cljs$core$IFn$_invoke$arity$1(G__23231),new cljs.core.Keyword(null,"description","description",-1428560544).cljs$core$IFn$_invoke$arity$1(G__23231),null,cljs.core.dissoc.call(null,G__23231,new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"description","description",-1428560544)),null));
 });
 
 advenjure.rooms.make = (function advenjure$rooms$make(var_args){
 var args__21537__auto__ = [];
-var len__21530__auto___23233 = arguments.length;
-var i__21531__auto___23239 = (0);
+var len__21530__auto___23345 = arguments.length;
+var i__21531__auto___23346 = (0);
 while(true){
-if((i__21531__auto___23239 < len__21530__auto___23233)){
-args__21537__auto__.push((arguments[i__21531__auto___23239]));
+if((i__21531__auto___23346 < len__21530__auto___23345)){
+args__21537__auto__.push((arguments[i__21531__auto___23346]));
 
-var G__23242 = (i__21531__auto___23239 + (1));
-i__21531__auto___23239 = G__23242;
+var G__23349 = (i__21531__auto___23346 + (1));
+i__21531__auto___23346 = G__23349;
 continue;
 } else {
 }
@@ -218,21 +218,21 @@ var argseq__21538__auto__ = ((((2) < args__21537__auto__.length))?(new cljs.core
 return advenjure.rooms.make.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),argseq__21538__auto__);
 });
 
-advenjure.rooms.make.cljs$core$IFn$_invoke$arity$variadic = (function (name,description,p__23219){
-var map__23220 = p__23219;
-var map__23220__$1 = ((((!((map__23220 == null)))?((((map__23220.cljs$lang$protocol_mask$partition0$ & (64))) || (map__23220.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__23220):map__23220);
-var extras = map__23220__$1;
+advenjure.rooms.make.cljs$core$IFn$_invoke$arity$variadic = (function (name,description,p__23335){
+var map__23336 = p__23335;
+var map__23336__$1 = ((((!((map__23336 == null)))?((((map__23336.cljs$lang$protocol_mask$partition0$ & (64))) || (map__23336.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__23336):map__23336);
+var extras = map__23336__$1;
 return advenjure.rooms.map__GT_Room.call(null,cljs.core.merge.call(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"name","name",1843675177),name,new cljs.core.Keyword(null,"description","description",-1428560544),description], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"items","items",1031954938),cljs.core.PersistentHashSet.EMPTY,new cljs.core.Keyword(null,"item-descriptions","item-descriptions",-708662132),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"visited","visited",-1610853875),false], null),extras));
 });
 
 advenjure.rooms.make.cljs$lang$maxFixedArity = (2);
 
-advenjure.rooms.make.cljs$lang$applyTo = (function (seq23207){
-var G__23208 = cljs.core.first.call(null,seq23207);
-var seq23207__$1 = cljs.core.next.call(null,seq23207);
-var G__23209 = cljs.core.first.call(null,seq23207__$1);
-var seq23207__$2 = cljs.core.next.call(null,seq23207__$1);
-return advenjure.rooms.make.cljs$core$IFn$_invoke$arity$variadic(G__23208,G__23209,seq23207__$2);
+advenjure.rooms.make.cljs$lang$applyTo = (function (seq23324){
+var G__23325 = cljs.core.first.call(null,seq23324);
+var seq23324__$1 = cljs.core.next.call(null,seq23324);
+var G__23326 = cljs.core.first.call(null,seq23324__$1);
+var seq23324__$2 = cljs.core.next.call(null,seq23324__$1);
+return advenjure.rooms.make.cljs$core$IFn$_invoke$arity$variadic(G__23325,G__23326,seq23324__$2);
 });
 
 advenjure.rooms.names = (function advenjure$rooms$names(room){
@@ -243,23 +243,23 @@ return cljs.core.map.call(null,clojure.string.lower_case,cljs.core.concat.call(n
  *   Returns the updated room.
  */
 advenjure.rooms.add_item = (function advenjure$rooms$add_item(var_args){
-var args23275 = [];
-var len__21530__auto___23320 = arguments.length;
-var i__21531__auto___23322 = (0);
+var args23354 = [];
+var len__21530__auto___23369 = arguments.length;
+var i__21531__auto___23371 = (0);
 while(true){
-if((i__21531__auto___23322 < len__21530__auto___23320)){
-args23275.push((arguments[i__21531__auto___23322]));
+if((i__21531__auto___23371 < len__21530__auto___23369)){
+args23354.push((arguments[i__21531__auto___23371]));
 
-var G__23341 = (i__21531__auto___23322 + (1));
-i__21531__auto___23322 = G__23341;
+var G__23373 = (i__21531__auto___23371 + (1));
+i__21531__auto___23371 = G__23373;
 continue;
 } else {
 }
 break;
 }
 
-var G__23304 = args23275.length;
-switch (G__23304) {
+var G__23362 = args23354.length;
+switch (G__23362) {
 case 2:
 return advenjure.rooms.add_item.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -269,7 +269,7 @@ return advenjure.rooms.add_item.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(
 
 break;
 default:
-throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args23275.length)].join('')));
+throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args23354.length)].join('')));
 
 }
 });
@@ -301,20 +301,20 @@ return new cljs.core.Keyword(null,"description","description",-1428560544).cljs$
 })());
 var current_items = cljs.core.set.call(null,cljs.core.map.call(null,advenjure.items.iname,new cljs.core.Keyword(null,"items","items",1031954938).cljs$core$IFn$_invoke$arity$1(room)));
 var custom_items = cljs.core.filter.call(null,((function (room_descr,current_items){
-return (function (p1__23367_SHARP_){
-return current_items.call(null,cljs.core.first.call(null,p1__23367_SHARP_));
+return (function (p1__23383_SHARP_){
+return current_items.call(null,cljs.core.first.call(null,p1__23383_SHARP_));
 });})(room_descr,current_items))
 ,new cljs.core.Keyword(null,"item-descriptions","item-descriptions",-708662132).cljs$core$IFn$_invoke$arity$1(room));
 var custom_descr = clojure.string.join.call(null," ",cljs.core.remove.call(null,clojure.string.blank_QMARK_,cljs.core.vals.call(null,custom_items)));
 var custom_prefix = (cljs.core.truth_(cljs.core.not_empty.call(null,custom_descr))?" ":null);
 var remain_items = cljs.core.filter.call(null,((function (room_descr,current_items,custom_items,custom_descr,custom_prefix){
-return (function (p1__23368_SHARP_){
-return (cljs.core.get.call(null,new cljs.core.Keyword(null,"item-descriptions","item-descriptions",-708662132).cljs$core$IFn$_invoke$arity$1(room),advenjure.items.iname.call(null,p1__23368_SHARP_)) == null);
+return (function (p1__23385_SHARP_){
+return (cljs.core.get.call(null,new cljs.core.Keyword(null,"item-descriptions","item-descriptions",-708662132).cljs$core$IFn$_invoke$arity$1(room),advenjure.items.iname.call(null,p1__23385_SHARP_)) == null);
 });})(room_descr,current_items,custom_items,custom_descr,custom_prefix))
 ,new cljs.core.Keyword(null,"items","items",1031954938).cljs$core$IFn$_invoke$arity$1(room));
 var item_descr = cljs.core.reduce.call(null,((function (room_descr,current_items,custom_items,custom_descr,custom_prefix,remain_items){
-return (function (p1__23369_SHARP_,p2__23370_SHARP_){
-return [cljs.core.str(p1__23369_SHARP_),cljs.core.str(advenjure.gettext.core._.call(null,"\nThere was %s there.",advenjure.items.print_list_item.call(null,p2__23370_SHARP_))),cljs.core.str(advenjure.items.describe_container.call(null,p2__23370_SHARP_," "))].join('');
+return (function (p1__23386_SHARP_,p2__23387_SHARP_){
+return [cljs.core.str(p1__23386_SHARP_),cljs.core.str(advenjure.gettext.core._.call(null,"\nThere was %s there.",advenjure.items.print_list_item.call(null,p2__23387_SHARP_))),cljs.core.str(advenjure.items.describe_container.call(null,p2__23387_SHARP_," "))].join('');
 });})(room_descr,current_items,custom_items,custom_descr,custom_prefix,remain_items))
 ,"",remain_items);
 if(cljs.core.truth_(cljs.core.not_empty.call(null,item_descr))){
@@ -344,10 +344,10 @@ return cljs.core.assoc_in.call(null,room_map,new cljs.core.PersistentVector(null
  *   does, return the direction.
  */
 advenjure.rooms.connection_dir = (function advenjure$rooms$connection_dir(room_spec,roomkw){
-return cljs.core.some.call(null,(function (p1__23453_SHARP_){
-var and__20443__auto__ = cljs.core._EQ_.call(null,p1__23453_SHARP_.call(null,room_spec),roomkw);
+return cljs.core.some.call(null,(function (p1__23424_SHARP_){
+var and__20443__auto__ = cljs.core._EQ_.call(null,p1__23424_SHARP_.call(null,room_spec),roomkw);
 if(and__20443__auto__){
-return p1__23453_SHARP_;
+return p1__23424_SHARP_;
 } else {
 return and__20443__auto__;
 }
@@ -358,16 +358,16 @@ return and__20443__auto__;
  *   synonyms) to room keyword, considering only accesible and visited rooms.
  */
 advenjure.rooms.visible_name_mappings = (function advenjure$rooms$visible_name_mappings(room_map,current){
-return cljs.core.apply.call(null,cljs.core.merge,cljs.core.map.call(null,(function (p1__23475_SHARP_){
-return cljs.core.zipmap.call(null,advenjure.rooms.names.call(null,p1__23475_SHARP_.call(null,room_map)),cljs.core.repeat.call(null,p1__23475_SHARP_));
-}),cljs.core.filter.call(null,(function (p1__23474_SHARP_){
-var or__20455__auto__ = cljs.core.get_in.call(null,room_map,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [p1__23474_SHARP_,new cljs.core.Keyword(null,"known","known",1655795903)], null));
+return cljs.core.apply.call(null,cljs.core.merge,cljs.core.map.call(null,(function (p1__23432_SHARP_){
+return cljs.core.zipmap.call(null,advenjure.rooms.names.call(null,p1__23432_SHARP_.call(null,room_map)),cljs.core.repeat.call(null,p1__23432_SHARP_));
+}),cljs.core.filter.call(null,(function (p1__23431_SHARP_){
+var or__20455__auto__ = cljs.core.get_in.call(null,room_map,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [p1__23431_SHARP_,new cljs.core.Keyword(null,"known","known",1655795903)], null));
 if(cljs.core.truth_(or__20455__auto__)){
 return or__20455__auto__;
 } else {
-return cljs.core.get_in.call(null,room_map,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [p1__23474_SHARP_,new cljs.core.Keyword(null,"visited","visited",-1610853875)], null));
+return cljs.core.get_in.call(null,room_map,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [p1__23431_SHARP_,new cljs.core.Keyword(null,"visited","visited",-1610853875)], null));
 }
 }),cljs.core.map.call(null,cljs.core.second,cljs.core.filter.call(null,cljs.core.comp.call(null,advenjure.rooms.directions,cljs.core.first),current.call(null,room_map))))));
 });
 
-//# sourceMappingURL=rooms.js.map?rel=1522121075554
+//# sourceMappingURL=rooms.js.map?rel=1522181419879
