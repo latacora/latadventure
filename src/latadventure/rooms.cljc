@@ -84,7 +84,7 @@
   (->
    (r/make
     "Center of the office"
-    "You are in the center of an \"ah-fis\". The floor turns from strange soft gray wool to a strange surface that looks like wood but clearly isn't. There is a giant pile of trash here.")
+    "You are in the center of an \"ah-fis\". The floor turns from strange soft gray wool to a strange surface that looks like wood but clearly isn't.")
    (r/add-item trash)))
 
 ;; den
