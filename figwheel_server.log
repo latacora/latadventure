@@ -1,0 +1,1574 @@
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/main.js" in 0.33 seconds.[0m
+[36m----  Could not Analyze  target/figwheel_temp/dev/figwheel/connect.cljs  ----[0m
+
+  [1mNo such namespace: example.core, could not locate example/core.cljs, example/core.cljc, or Closure namespace "example.core" [0m
+
+[36m----  Analysis Error : Please see target/figwheel_temp/dev/figwheel/connect.cljs  ----[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/main.js" in 0.341 seconds.[0m
+[36m----  Could not Analyze  target/figwheel_temp/dev/figwheel/connect.cljs  ----[0m
+
+  [1mNo such namespace: example.core, could not locate example/core.cljs, example/core.cljc, or Closure namespace "example.core" [0m
+
+[36m----  Analysis Error : Please see target/figwheel_temp/dev/figwheel/connect.cljs  ----[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/main.js" in 1.732 seconds.[0m
+[36m----  Could not Analyze  target/figwheel_temp/dev/figwheel/connect.cljs  ----[0m
+
+  [1mNo such namespace: example.core, could not locate example/core.cljs, example/core.cljc, or Closure namespace "example.core" [0m
+
+[36m----  Analysis Error : Please see target/figwheel_temp/dev/figwheel/connect.cljs  ----[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/main.js" in 0.285 seconds.[0m
+[36m----  Could not Analyze  target/figwheel_temp/dev/figwheel/connect.cljs  ----[0m
+
+  [1mNo such namespace: example.core, could not locate example/core.cljs, example/core.cljc, or Closure namespace "example.core" [0m
+
+[36m----  Analysis Error : Please see target/figwheel_temp/dev/figwheel/connect.cljs  ----[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/main.js" in 0.332 seconds.[0m
+[36m----  Could not Analyze  target/figwheel_temp/dev/figwheel/connect.cljs  ----[0m
+
+  [1mNo such namespace: example.core, could not locate example/core.cljs, example/core.cljc, or Closure namespace "example.core" [0m
+
+[36m----  Analysis Error : Please see target/figwheel_temp/dev/figwheel/connect.cljs  ----[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.378 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.42 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.838 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.383 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:7  column:4  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m 3[0m  [36m            [advenjure.items :as i][0m
+  [36m 4[0m  [36m            [advenjure.utils :as u]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(def dais[0m
+  [33m 7[0m  [1m  (room/make "Dais" "You are by some kind of dais. It is made of smooth black[0m
+  [0m  [0m  [33m   ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m 8[0m  [36m  leather."))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(def cabinet[0m
+  [36m11[0m  [36m  (room/make "Alchemy cabinet" "There is some kind of alchemy cabinet here.[0m
+  [36m12[0m  [36m  There are a number of bottles of colored liquid ranging from yellow to ochre[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:7  column:4  ----[0m
+
+  [1mUse of undeclared Var room/make[0m
+
+  [36m 3[0m  [36m            [advenjure.items :as i][0m
+  [36m 4[0m  [36m            [advenjure.utils :as u]))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(def dais[0m
+  [33m 7[0m  [1m  (room/make "Dais" "You are by some kind of dais. It is made of smooth black[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var room/make[0m
+  [36m 8[0m  [36m  leather."))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(def cabinet[0m
+  [36m11[0m  [36m  (room/make "Alchemy cabinet" "There is some kind of alchemy cabinet here.[0m
+  [36m12[0m  [36m  There are a number of bottles of colored liquid ranging from yellow to ochre[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:11  column:4  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m 7[0m  [36m  (room/make "Dais" "You are by some kind of dais. It is made of smooth black[0m
+  [36m 8[0m  [36m  leather."))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(def cabinet[0m
+  [33m11[0m  [1m  (room/make "Alchemy cabinet" "There is some kind of alchemy cabinet here.[0m
+  [0m  [0m  [33m   ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m12[0m  [36m  There are a number of bottles of colored liquid ranging from yellow to ochre[0m
+  [36m13[0m  [36m  to brown. Every bottle is on the top shelf, out of reach -- except one."))[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(def windex[0m
+  [36m16[0m  [36m  ())[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:11  column:4  ----[0m
+
+  [1mUse of undeclared Var room/make[0m
+
+  [36m 7[0m  [36m  (room/make "Dais" "You are by some kind of dais. It is made of smooth black[0m
+  [36m 8[0m  [36m  leather."))[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(def cabinet[0m
+  [33m11[0m  [1m  (room/make "Alchemy cabinet" "There is some kind of alchemy cabinet here.[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var room/make[0m
+  [36m12[0m  [36m  There are a number of bottles of colored liquid ranging from yellow to ochre[0m
+  [36m13[0m  [36m  to brown. Every bottle is on the top shelf, out of reach -- except one."))[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(def windex[0m
+  [36m16[0m  [36m  ())[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:19  column:4  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m15[0m  [36m(def windex[0m
+  [36m16[0m  [36m  ())[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(def office[0m
+  [33m19[0m  [1m  (room/make "Office" "You are in the center of an office. The floor turns from[0m
+  [0m  [0m  [33m   ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m20[0m  [36m  strange, soft grass to a smooth, wood-like surface. There is a giant pile of[0m
+  [36m21[0m  [36m  trash here."))[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(def wizard-den[0m
+  [36m24[0m  [36m  (room/make "Wizard's den" "You are by the wizard's den. He is programming[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:19  column:4  ----[0m
+
+  [1mUse of undeclared Var room/make[0m
+
+  [36m15[0m  [36m(def windex[0m
+  [36m16[0m  [36m  ())[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(def office[0m
+  [33m19[0m  [1m  (room/make "Office" "You are in the center of an office. The floor turns from[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var room/make[0m
+  [36m20[0m  [36m  strange, soft grass to a smooth, wood-like surface. There is a giant pile of[0m
+  [36m21[0m  [36m  trash here."))[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(def wizard-den[0m
+  [36m24[0m  [36m  (room/make "Wizard's den" "You are by the wizard's den. He is programming[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:24  column:4  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m20[0m  [36m  strange, soft grass to a smooth, wood-like surface. There is a giant pile of[0m
+  [36m21[0m  [36m  trash here."))[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(def wizard-den[0m
+  [33m24[0m  [1m  (room/make "Wizard's den" "You are by the wizard's den. He is programming[0m
+  [0m  [0m  [33m   ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m25[0m  [36m  furiously with a long, forked beard. He has a fancy cape. He seems not to[0m
+  [36m26[0m  [36m  notice you. There is a box with tiny flashing lights in the corner."))[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(def room-map[0m
+  [36m29[0m  [36m  (-> {:dais dais[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:24  column:4  ----[0m
+
+  [1mUse of undeclared Var room/make[0m
+
+  [36m20[0m  [36m  strange, soft grass to a smooth, wood-like surface. There is a giant pile of[0m
+  [36m21[0m  [36m  trash here."))[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(def wizard-den[0m
+  [33m24[0m  [1m  (room/make "Wizard's den" "You are by the wizard's den. He is programming[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var room/make[0m
+  [36m25[0m  [36m  furiously with a long, forked beard. He has a fancy cape. He seems not to[0m
+  [36m26[0m  [36m  notice you. There is a box with tiny flashing lights in the corner."))[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(def room-map[0m
+  [36m29[0m  [36m  (-> {:dais dais[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:35  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m31[0m  [36m :office office[0m
+  [36m32[0m  [36m :wizard-den wizard-den}[0m
+  [36m33[0m  [36m(room/connect :dais :south :center)[0m
+  [36m34[0m  [36m(room/connect :dais :west :cabinet)[0m
+  [33m35[0m  [1m(room/connect :center :south :desk)))[0m
+  [0m  [0m  [33m ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:35  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m31[0m  [36m :office office[0m
+  [36m32[0m  [36m :wizard-den wizard-den}[0m
+  [36m33[0m  [36m(room/connect :dais :south :center)[0m
+  [36m34[0m  [36m(room/connect :dais :west :cabinet)[0m
+  [33m35[0m  [1m(room/connect :center :south :desk)))[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var room/connect[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:34  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m30[0m  [36m :cabinet cabinet[0m
+  [36m31[0m  [36m :office office[0m
+  [36m32[0m  [36m :wizard-den wizard-den}[0m
+  [36m33[0m  [36m(room/connect :dais :south :center)[0m
+  [33m34[0m  [1m(room/connect :dais :west :cabinet)[0m
+  [0m  [0m  [33m ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m35[0m  [36m(room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:34  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m30[0m  [36m :cabinet cabinet[0m
+  [36m31[0m  [36m :office office[0m
+  [36m32[0m  [36m :wizard-den wizard-den}[0m
+  [36m33[0m  [36m(room/connect :dais :south :center)[0m
+  [33m34[0m  [1m(room/connect :dais :west :cabinet)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var room/connect[0m
+  [36m35[0m  [36m(room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:33  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m29[0m  [36m(-> {:dais dais[0m
+  [36m30[0m  [36m     :cabinet cabinet[0m
+  [36m31[0m  [36m     :office office[0m
+  [36m32[0m  [36m     :wizard-den wizard-den}[0m
+  [33m33[0m  [1m    (room/connect :dais :south :center)[0m
+  [0m  [0m  [33m     ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m34[0m  [36m    (room/connect :dais :west :cabinet)[0m
+  [36m35[0m  [36m    (room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:33  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m29[0m  [36m(-> {:dais dais[0m
+  [36m30[0m  [36m     :cabinet cabinet[0m
+  [36m31[0m  [36m     :office office[0m
+  [36m32[0m  [36m     :wizard-den wizard-den}[0m
+  [33m33[0m  [1m    (room/connect :dais :south :center)[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var room/connect[0m
+  [36m34[0m  [36m    (room/connect :dais :west :cabinet)[0m
+  [36m35[0m  [36m    (room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.542 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:24  column:4  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m20[0m  [36m  strange, soft grass to a smooth, wood-like surface. There is a giant pile of[0m
+  [36m21[0m  [36m  trash here."))[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(def wizard-den[0m
+  [33m24[0m  [1m  (room/make "Wizard's den" "You are by the wizard's den. He is programming[0m
+  [0m  [0m  [33m   ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m25[0m  [36m  furiously with a long, forked beard. He has a fancy cape. He seems not to[0m
+  [36m26[0m  [36m  notice you. There is a box with tiny flashing lights in the corner."))[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(def room-map[0m
+  [36m29[0m  [36m  (-> {:dais dais[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:24  column:4  ----[0m
+
+  [1mUse of undeclared Var room/make[0m
+
+  [36m20[0m  [36m  strange, soft grass to a smooth, wood-like surface. There is a giant pile of[0m
+  [36m21[0m  [36m  trash here."))[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(def wizard-den[0m
+  [33m24[0m  [1m  (room/make "Wizard's den" "You are by the wizard's den. He is programming[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var room/make[0m
+  [36m25[0m  [36m  furiously with a long, forked beard. He has a fancy cape. He seems not to[0m
+  [36m26[0m  [36m  notice you. There is a box with tiny flashing lights in the corner."))[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(def room-map[0m
+  [36m29[0m  [36m  (-> {:dais dais[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:35  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m31[0m  [36m :office office[0m
+  [36m32[0m  [36m :wizard-den wizard-den}[0m
+  [36m33[0m  [36m(room/connect :dais :south :center)[0m
+  [36m34[0m  [36m(room/connect :dais :west :cabinet)[0m
+  [33m35[0m  [1m(room/connect :center :south :desk)))[0m
+  [0m  [0m  [33m ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:35  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m31[0m  [36m :office office[0m
+  [36m32[0m  [36m :wizard-den wizard-den}[0m
+  [36m33[0m  [36m(room/connect :dais :south :center)[0m
+  [36m34[0m  [36m(room/connect :dais :west :cabinet)[0m
+  [33m35[0m  [1m(room/connect :center :south :desk)))[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var room/connect[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:34  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m30[0m  [36m :cabinet cabinet[0m
+  [36m31[0m  [36m :office office[0m
+  [36m32[0m  [36m :wizard-den wizard-den}[0m
+  [36m33[0m  [36m(room/connect :dais :south :center)[0m
+  [33m34[0m  [1m(room/connect :dais :west :cabinet)[0m
+  [0m  [0m  [33m ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m35[0m  [36m(room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:34  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m30[0m  [36m :cabinet cabinet[0m
+  [36m31[0m  [36m :office office[0m
+  [36m32[0m  [36m :wizard-den wizard-den}[0m
+  [36m33[0m  [36m(room/connect :dais :south :center)[0m
+  [33m34[0m  [1m(room/connect :dais :west :cabinet)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var room/connect[0m
+  [36m35[0m  [36m(room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:33  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m29[0m  [36m(-> {:dais dais[0m
+  [36m30[0m  [36m     :cabinet cabinet[0m
+  [36m31[0m  [36m     :office office[0m
+  [36m32[0m  [36m     :wizard-den wizard-den}[0m
+  [33m33[0m  [1m    (room/connect :dais :south :center)[0m
+  [0m  [0m  [33m     ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m34[0m  [36m    (room/connect :dais :west :cabinet)[0m
+  [36m35[0m  [36m    (room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:33  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m29[0m  [36m(-> {:dais dais[0m
+  [36m30[0m  [36m     :cabinet cabinet[0m
+  [36m31[0m  [36m     :office office[0m
+  [36m32[0m  [36m     :wizard-den wizard-den}[0m
+  [33m33[0m  [1m    (room/connect :dais :south :center)[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var room/connect[0m
+  [36m34[0m  [36m    (room/connect :dais :west :cabinet)[0m
+  [36m35[0m  [36m    (room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.391 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:33  column:4  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m29[0m  [36m  strange soft gray wool to a strange surface that looks like wood but clearly[0m
+  [36m30[0m  [36m  isn't. There is a giant pile of trash here."))[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(def wizard-den[0m
+  [33m33[0m  [1m  (room/make "Wizard's den" "You are by the wizard's den. He is programming[0m
+  [0m  [0m  [33m   ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m34[0m  [36m  furiously with a long, forked beard. There is a box with tiny flashing lights[0m
+  [36m35[0m  [36m  in the corner."))[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(def room-map[0m
+  [36m38[0m  [36m  (-> {:dais dais[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:33  column:4  ----[0m
+
+  [1mUse of undeclared Var room/make[0m
+
+  [36m29[0m  [36m  strange soft gray wool to a strange surface that looks like wood but clearly[0m
+  [36m30[0m  [36m  isn't. There is a giant pile of trash here."))[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(def wizard-den[0m
+  [33m33[0m  [1m  (room/make "Wizard's den" "You are by the wizard's den. He is programming[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var room/make[0m
+  [36m34[0m  [36m  furiously with a long, forked beard. There is a box with tiny flashing lights[0m
+  [36m35[0m  [36m  in the corner."))[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(def room-map[0m
+  [36m38[0m  [36m  (-> {:dais dais[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:44  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m40[0m  [36m :office office[0m
+  [36m41[0m  [36m :wizard-den wizard-den}[0m
+  [36m42[0m  [36m(room/connect :dais :south :center)[0m
+  [36m43[0m  [36m(room/connect :dais :west :cabinet)[0m
+  [33m44[0m  [1m(room/connect :center :south :desk)))[0m
+  [0m  [0m  [33m ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:44  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m40[0m  [36m :office office[0m
+  [36m41[0m  [36m :wizard-den wizard-den}[0m
+  [36m42[0m  [36m(room/connect :dais :south :center)[0m
+  [36m43[0m  [36m(room/connect :dais :west :cabinet)[0m
+  [33m44[0m  [1m(room/connect :center :south :desk)))[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var room/connect[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:43  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m39[0m  [36m :cabinet cabinet[0m
+  [36m40[0m  [36m :office office[0m
+  [36m41[0m  [36m :wizard-den wizard-den}[0m
+  [36m42[0m  [36m(room/connect :dais :south :center)[0m
+  [33m43[0m  [1m(room/connect :dais :west :cabinet)[0m
+  [0m  [0m  [33m ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m44[0m  [36m(room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:43  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m39[0m  [36m :cabinet cabinet[0m
+  [36m40[0m  [36m :office office[0m
+  [36m41[0m  [36m :wizard-den wizard-den}[0m
+  [36m42[0m  [36m(room/connect :dais :south :center)[0m
+  [33m43[0m  [1m(room/connect :dais :west :cabinet)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var room/connect[0m
+  [36m44[0m  [36m(room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:42  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m38[0m  [36m(-> {:dais dais[0m
+  [36m39[0m  [36m     :cabinet cabinet[0m
+  [36m40[0m  [36m     :office office[0m
+  [36m41[0m  [36m     :wizard-den wizard-den}[0m
+  [33m42[0m  [1m    (room/connect :dais :south :center)[0m
+  [0m  [0m  [33m     ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m43[0m  [36m    (room/connect :dais :west :cabinet)[0m
+  [36m44[0m  [36m    (room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:42  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m38[0m  [36m(-> {:dais dais[0m
+  [36m39[0m  [36m     :cabinet cabinet[0m
+  [36m40[0m  [36m     :office office[0m
+  [36m41[0m  [36m     :wizard-den wizard-den}[0m
+  [33m42[0m  [1m    (room/connect :dais :south :center)[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var room/connect[0m
+  [36m43[0m  [36m    (room/connect :dais :west :cabinet)[0m
+  [36m44[0m  [36m    (room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.471 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:33  column:4  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m29[0m  [36m  strange soft gray wool to a strange surface that looks like wood but clearly[0m
+  [36m30[0m  [36m  isn't. There is a giant pile of trash here."))[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(def wizard-den[0m
+  [33m33[0m  [1m  (room/make "Wizard's den" "You are by the wizard's den. He is programming[0m
+  [0m  [0m  [33m   ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m34[0m  [36m  furiously with a long, forked beard. There is a box with tiny flashing lights[0m
+  [36m35[0m  [36m  in the corner."))[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(def room-map[0m
+  [36m38[0m  [36m  (-> {:dais dais[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:33  column:4  ----[0m
+
+  [1mUse of undeclared Var room/make[0m
+
+  [36m29[0m  [36m  strange soft gray wool to a strange surface that looks like wood but clearly[0m
+  [36m30[0m  [36m  isn't. There is a giant pile of trash here."))[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(def wizard-den[0m
+  [33m33[0m  [1m  (room/make "Wizard's den" "You are by the wizard's den. He is programming[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var room/make[0m
+  [36m34[0m  [36m  furiously with a long, forked beard. There is a box with tiny flashing lights[0m
+  [36m35[0m  [36m  in the corner."))[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(def room-map[0m
+  [36m38[0m  [36m  (-> {:dais dais[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:44  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m40[0m  [36m :office office[0m
+  [36m41[0m  [36m :wizard-den wizard-den}[0m
+  [36m42[0m  [36m(room/connect :dais :south :center)[0m
+  [36m43[0m  [36m(room/connect :dais :west :cabinet)[0m
+  [33m44[0m  [1m(room/connect :center :south :desk)))[0m
+  [0m  [0m  [33m ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:44  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m40[0m  [36m :office office[0m
+  [36m41[0m  [36m :wizard-den wizard-den}[0m
+  [36m42[0m  [36m(room/connect :dais :south :center)[0m
+  [36m43[0m  [36m(room/connect :dais :west :cabinet)[0m
+  [33m44[0m  [1m(room/connect :center :south :desk)))[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var room/connect[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:43  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m39[0m  [36m :cabinet cabinet[0m
+  [36m40[0m  [36m :office office[0m
+  [36m41[0m  [36m :wizard-den wizard-den}[0m
+  [36m42[0m  [36m(room/connect :dais :south :center)[0m
+  [33m43[0m  [1m(room/connect :dais :west :cabinet)[0m
+  [0m  [0m  [33m ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m44[0m  [36m(room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:43  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m39[0m  [36m :cabinet cabinet[0m
+  [36m40[0m  [36m :office office[0m
+  [36m41[0m  [36m :wizard-den wizard-den}[0m
+  [36m42[0m  [36m(room/connect :dais :south :center)[0m
+  [33m43[0m  [1m(room/connect :dais :west :cabinet)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var room/connect[0m
+  [36m44[0m  [36m(room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:42  column:8  ----[0m
+
+  [1mNo such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+
+  [36m38[0m  [36m(-> {:dais dais[0m
+  [36m39[0m  [36m     :cabinet cabinet[0m
+  [36m40[0m  [36m     :office office[0m
+  [36m41[0m  [36m     :wizard-den wizard-den}[0m
+  [33m42[0m  [1m    (room/connect :dais :south :center)[0m
+  [0m  [0m  [33m     ^--- No such namespace: room, could not locate room.cljs, room.cljc, or Closure namespace ""[0m
+  [36m43[0m  [36m    (room/connect :dais :west :cabinet)[0m
+  [36m44[0m  [36m    (room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:42  column:8  ----[0m
+
+  [1mUse of undeclared Var room/connect[0m
+
+  [36m38[0m  [36m(-> {:dais dais[0m
+  [36m39[0m  [36m     :cabinet cabinet[0m
+  [36m40[0m  [36m     :office office[0m
+  [36m41[0m  [36m     :wizard-den wizard-den}[0m
+  [33m42[0m  [1m    (room/connect :dais :south :center)[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var room/connect[0m
+  [36m43[0m  [36m    (room/connect :dais :west :cabinet)[0m
+  [36m44[0m  [36m    (room/connect :center :south :desk)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.395 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:28  column:22  ----[0m
+
+  [1mWrong number of args (2) passed to advenjure.utils/replace-item[0m
+
+  [36m24[0m  [36m                    true))[0m
+  [36m25[0m  [36m           :post (fn [s t][0m
+  [36m26[0m  [36m                   (let [bottle (-> s (u/find-first "bottle"))][0m
+  [36m27[0m  [36m                     (u/say "Yeeech! This tastes like ox-bile soap.")[0m
+  [33m28[0m  [1m                     (u/replace-item bottle (assoc bottle :tried true))))}[0m
+  [0m  [0m  [33m                     ^--- Wrong number of args (2) passed to advenjure.utils/replace-item[0m
+  [36m29[0m  [36m   :tried false))[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m(def office[0m
+  [36m32[0m  [36m  (r/make "Office" "You are in the center of an \"ah-fis\". The floor turns from[0m
+  [36m33[0m  [36m  strange soft gray wool to a strange surface that looks like wood but clearly[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.388 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:23  column:22  ----[0m
+
+  [1mWrong number of args (2) passed to advenjure.utils/replace-item[0m
+
+  [36m19[0m  [36m                    true))[0m
+  [36m20[0m  [36m           :post (fn [s t][0m
+  [36m21[0m  [36m                   (let [bottle (-> s (u/find-first "bottle"))][0m
+  [36m22[0m  [36m                     (u/say "Yeeech! This tastes like ox-bile soap.")[0m
+  [33m23[0m  [1m                     (u/replace-item bottle (assoc bottle :tried true))))}[0m
+  [0m  [0m  [33m                     ^--- Wrong number of args (2) passed to advenjure.utils/replace-item[0m
+  [36m24[0m  [36m   :tried false))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(def cabinet[0m
+  [36m27[0m  [36m  (->[0m
+  [36m28[0m  [36m   (r/make "Alchemy cabinet" "There is some kind of alchemy cabinet here. There[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.342 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:20  column:5  ----[0m
+
+  [1mWrong number of args (2) passed to advenjure.utils/replace-item[0m
+
+  [36m16[0m  [36m(defn post-drink-bottle[0m
+  [36m17[0m  [36m  [s t][0m
+  [36m18[0m  [36m  (let [bottle (-> s (u/find-first "bottle"))][0m
+  [36m19[0m  [36m    (u/say "Yeeech! This tastes like ox-bile soap.")[0m
+  [33m20[0m  [1m    (u/replace-item bottle (assoc bottle :tried true))))[0m
+  [0m  [0m  [33m    ^--- Wrong number of args (2) passed to advenjure.utils/replace-item[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(def bottle[0m
+  [36m23[0m  [36m  (i/make[0m
+  [36m24[0m  [36m   ["bottle" "windex" "windex bottle"][0m
+  [36m25[0m  [36m   "a bottle. It says \"Malört\", but you've heard the locals pronounce it \"win-deks\"."[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.354 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:20  column:5  ----[0m
+
+  [1mWrong number of args (2) passed to advenjure.utils/replace-item[0m
+
+  [36m16[0m  [36m(defn post-drink-bottle[0m
+  [36m17[0m  [36m  [s t][0m
+  [36m18[0m  [36m  (let [bottle (-> s (u/find-first "bottle"))][0m
+  [36m19[0m  [36m    (u/say "Yeeech! This tastes like ox-bile soap.")[0m
+  [33m20[0m  [1m    (u/replace-item bottle (assoc bottle :tried true))))[0m
+  [0m  [0m  [33m    ^--- Wrong number of args (2) passed to advenjure.utils/replace-item[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(def bottle[0m
+  [36m23[0m  [36m  (i/make[0m
+  [36m24[0m  [36m   ["bottle" "windex" "windex bottle"][0m
+  [36m25[0m  [36m   "a bottle. It says \"Malört\", but you've heard the locals pronounce it \"win-deks\"."[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.362 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:22  column:5  ----[0m
+
+  [1mWrong number of args (2) passed to advenjure.utils/replace-item[0m
+
+  [36m18[0m  [36m(defn post-drink-bottle[0m
+  [36m19[0m  [36m  [s t][0m
+  [36m20[0m  [36m  (let [bottle (-> s (u/find-first "bottle"))][0m
+  [36m21[0m  [36m    (u/say "Yeeech! This tastes like ox-bile soap.")[0m
+  [33m22[0m  [1m    (u/replace-item bottle (assoc bottle :tried true))))[0m
+  [0m  [0m  [33m    ^--- Wrong number of args (2) passed to advenjure.utils/replace-item[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m(def bottle[0m
+  [36m25[0m  [36m  (i/make[0m
+  [36m26[0m  [36m   ["bottle" "windex" "windex bottle"][0m
+  [36m27[0m  [36m   "a bottle. It says \"Malört\", but you've heard the locals pronounce it \"win-deks\"."[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.361 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:25  column:5  ----[0m
+
+  [1mWrong number of args (2) passed to advenjure.utils/replace-item[0m
+
+  [36m21[0m  [36m  [s t][0m
+  [36m22[0m  [36m  (u/say "well, that was that")[0m
+  [36m23[0m  [36m  (let [bottle (-> s (u/find-first "bottle"))][0m
+  [36m24[0m  [36m    (u/say "Yeeech! This tastes like ox-bile soap.")[0m
+  [33m25[0m  [1m    (u/replace-item bottle (assoc bottle :tried true))))[0m
+  [0m  [0m  [33m    ^--- Wrong number of args (2) passed to advenjure.utils/replace-item[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m(def bottle[0m
+  [36m28[0m  [36m  (i/make[0m
+  [36m29[0m  [36m   ["bottle" "windex" "windex bottle"][0m
+  [36m30[0m  [36m   "a bottle. It says \"Malört\", but you've heard the locals pronounce it \"win-deks\"."[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.414 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.335 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.435 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.331 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.375 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.38 seconds.[0m
+notifying browser that file changed:  out/latadventure/verbs.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.368 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.35 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.395 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.351 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.337 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.408 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.339 seconds.[0m
+notifying browser that file changed:  out/latadventure/verbs.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/verbs.cljc   line:17  column:8  ----[0m
+
+  [1mUse of undeclared Var latadventure.verbs/add-verb[0m
+
+  [36m14[0m  [36m(def verb-map[0m
+  [36m15[0m  [36m  (-> default-map[0m
+  [36m16[0m  [36m      (add-verb ["^yell$" "^scream$"] yell)[0m
+  [33m17[0m  [1m      (add-verb ["^drink (?<item>.*)" "^drink$"] drink)))[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var latadventure.verbs/add-verb[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/verbs.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/verbs.cljc   line:16  column:8  ----[0m
+
+  [1mUse of undeclared Var latadventure.verbs/add-verb[0m
+
+  [36m12[0m  [36m  (make-item-handler "eat" :eat))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(def verb-map[0m
+  [36m15[0m  [36m  (-> default-map[0m
+  [33m16[0m  [1m      (add-verb ["^yell$" "^scream$"] yell)[0m
+  [0m  [0m  [33m       ^--- Use of undeclared Var latadventure.verbs/add-verb[0m
+  [36m17[0m  [36m      (add-verb ["^drink (?<item>.*)" "^drink$"] drink)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/verbs.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/verbs.cljc   line:15  column:7  ----[0m
+
+  [1mUse of undeclared Var latadventure.verbs/default-map[0m
+
+  [36m11[0m  [36m(def eat[0m
+  [36m12[0m  [36m  (make-item-handler "eat" :eat))[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(def verb-map[0m
+  [33m15[0m  [1m  (-> default-map[0m
+  [0m  [0m  [33m      ^--- Use of undeclared Var latadventure.verbs/default-map[0m
+  [36m16[0m  [36m      (add-verb ["^yell$" "^scream$"] yell)[0m
+  [36m17[0m  [36m      (add-verb ["^drink (?<item>.*)" "^drink$"] drink)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/verbs.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.435 seconds.[0m
+notifying browser that file changed:  out/latadventure/verbs.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.342 seconds.[0m
+notifying browser that file changed:  out/latadventure/verbs.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.353 seconds.[0m
+notifying browser that file changed:  out/latadventure/verbs.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.408 seconds.[0m
+notifying browser that file changed:  out/latadventure/verbs.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.325 seconds.[0m
+notifying browser that file changed:  out/latadventure/verbs.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.38 seconds.[0m
+notifying browser that file changed:  out/latadventure/verbs.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.475 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.353 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.392 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.35 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.424 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.417 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 2.066 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.589 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.581 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.434 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.525 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.519 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.434 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.566 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.473 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.471 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.476 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.487 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.449 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.488 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.493 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.438 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.447 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.429 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.448 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.498 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.475 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.496 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.479 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:133  column:22  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/wizard[0m
+
+  [36m129[0m  [36m(defn lvh-leaves[0m
+  [36m130[0m  [36m  [s][0m
+  [36m131[0m  [36m  (u/say "The wizard leaves the office, leaving the cape for the taking!")[0m
+  [36m132[0m  [36m  (-> s[0m
+  [33m133[0m  [1m      (u/remove-item wizard)[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var latadventure.rooms/wizard[0m
+  [36m134[0m  [36m      (u/replace-item wizard-cape (assoc wizard-cape :take true))))[0m
+  [36m135[0m  [36m[0m
+  [36m136[0m  [36m(def wizard-dialog[0m
+  [36m137[0m  [36m  (d/optional[0m
+  [36m138[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.574 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:134  column:22  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/wizard[0m
+
+  [36m130[0m  [36m(defn lvh-leaves[0m
+  [36m131[0m  [36m  [s][0m
+  [36m132[0m  [36m  (u/say "The wizard leaves the office, leaving the cape for the taking!")[0m
+  [36m133[0m  [36m  (-> s[0m
+  [33m134[0m  [1m      (u/remove-item wizard)[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var latadventure.rooms/wizard[0m
+  [36m135[0m  [36m      (u/replace-item wizard-cape (assoc wizard-cape :take true))))[0m
+  [36m136[0m  [36m[0m
+  [36m137[0m  [36m(def wizard-dialog[0m
+  [36m138[0m  [36m  (d/optional[0m
+  [36m139[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.65 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:134  column:22  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/wizard[0m
+
+  [36m130[0m  [36m(defn lvh-leaves[0m
+  [36m131[0m  [36m  [s][0m
+  [36m132[0m  [36m  (u/say "The wizard leaves the office, leaving the cape for the taking!")[0m
+  [36m133[0m  [36m  (-> s[0m
+  [33m134[0m  [1m      (u/remove-item wizard)[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var latadventure.rooms/wizard[0m
+  [36m135[0m  [36m      (u/replace-item wizard-cape (assoc wizard-cape :take true))))[0m
+  [36m136[0m  [36m[0m
+  [36m137[0m  [36m(def wizard-dialog[0m
+  [36m138[0m  [36m  (d/optional[0m
+  [36m139[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.51 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:134  column:22  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/wizard[0m
+
+  [36m130[0m  [36m(defn lvh-leaves[0m
+  [36m131[0m  [36m  [s][0m
+  [36m132[0m  [36m  (u/say "The wizard leaves the office, leaving the cape for the taking!")[0m
+  [36m133[0m  [36m  (-> s[0m
+  [33m134[0m  [1m      (u/remove-item wizard)[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var latadventure.rooms/wizard[0m
+  [36m135[0m  [36m      (u/replace-item wizard-cape (assoc wizard-cape :take true))))[0m
+  [36m136[0m  [36m[0m
+  [36m137[0m  [36m(def wizard-dialog[0m
+  [36m138[0m  [36m  (d/optional[0m
+  [36m139[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.475 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:134  column:22  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/wizard[0m
+
+  [36m130[0m  [36m(defn lvh-leaves[0m
+  [36m131[0m  [36m  [s][0m
+  [36m132[0m  [36m  (u/say "The wizard leaves the office, leaving the cape for the taking!")[0m
+  [36m133[0m  [36m  (-> s[0m
+  [33m134[0m  [1m      (u/remove-item wizard)[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var latadventure.rooms/wizard[0m
+  [36m135[0m  [36m      (u/replace-item wizard-cape (assoc wizard-cape :take true))))[0m
+  [36m136[0m  [36m[0m
+  [36m137[0m  [36m(def wizard-dialog[0m
+  [36m138[0m  [36m  (d/optional[0m
+  [36m139[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.525 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:136  column:22  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/wizard[0m
+
+  [36m132[0m  [36m(defn lvh-leaves[0m
+  [36m133[0m  [36m  [s][0m
+  [36m134[0m  [36m  (u/say "The wizard leaves the office, leaving the cape for the taking!")[0m
+  [36m135[0m  [36m  (-> s[0m
+  [33m136[0m  [1m      (u/remove-item wizard)[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var latadventure.rooms/wizard[0m
+  [36m137[0m  [36m      (u/replace-item wizard-cape (assoc wizard-cape :take true))))[0m
+  [36m138[0m  [36m[0m
+  [36m139[0m  [36m(def wizard-dialog[0m
+  [36m140[0m  [36m  (d/optional[0m
+  [36m141[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.473 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:136  column:22  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/wizard[0m
+
+  [36m132[0m  [36m(defn lvh-leaves[0m
+  [36m133[0m  [36m  [s][0m
+  [36m134[0m  [36m  (u/say "The wizard leaves the office, leaving the cape for the taking!")[0m
+  [36m135[0m  [36m  (-> s[0m
+  [33m136[0m  [1m      (u/remove-item wizard)[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var latadventure.rooms/wizard[0m
+  [36m137[0m  [36m      (u/replace-item wizard-cape (assoc wizard-cape :take true))))[0m
+  [36m138[0m  [36m[0m
+  [36m139[0m  [36m(def wizard-dialog[0m
+  [36m140[0m  [36m  (d/optional[0m
+  [36m141[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.49 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:136  column:22  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/wizard[0m
+
+  [36m132[0m  [36m(defn lvh-leaves[0m
+  [36m133[0m  [36m  [s][0m
+  [36m134[0m  [36m  (u/say "The wizard leaves the office, leaving the cape for the taking!")[0m
+  [36m135[0m  [36m  (-> s[0m
+  [33m136[0m  [1m      (u/remove-item wizard)[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var latadventure.rooms/wizard[0m
+  [36m137[0m  [36m      (u/replace-item wizard-cape (assoc wizard-cape :take true))))[0m
+  [36m138[0m  [36m[0m
+  [36m139[0m  [36m(def wizard-dialog[0m
+  [36m140[0m  [36m  (d/optional[0m
+  [36m141[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.586 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:136  column:22  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/wizard[0m
+
+  [36m132[0m  [36m(defn lvh-leaves[0m
+  [36m133[0m  [36m  [s][0m
+  [36m134[0m  [36m  (u/say "The wizard leaves the office, leaving the cape for the taking!")[0m
+  [36m135[0m  [36m  (-> s[0m
+  [33m136[0m  [1m      (u/remove-item wizard)[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var latadventure.rooms/wizard[0m
+  [36m137[0m  [36m      (u/replace-item wizard-cape (assoc wizard-cape :take true))))[0m
+  [36m138[0m  [36m[0m
+  [36m139[0m  [36m(def wizard-dialog-options[0m
+  [36m140[0m  [36m  (d/optional[0m
+  [36m141[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.488 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:136  column:22  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/wizard[0m
+
+  [36m132[0m  [36m(defn lvh-leaves[0m
+  [36m133[0m  [36m  [s][0m
+  [36m134[0m  [36m  (u/say "The wizard leaves the office, leaving the cape for the taking!")[0m
+  [36m135[0m  [36m  (-> s[0m
+  [33m136[0m  [1m      (u/remove-item wizard)[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var latadventure.rooms/wizard[0m
+  [36m137[0m  [36m      (u/replace-item wizard-cape (assoc wizard-cape :take true))))[0m
+  [36m138[0m  [36m[0m
+  [36m139[0m  [36m(def lvh-dialog-options[0m
+  [36m140[0m  [36m  (d/optional[0m
+  [36m141[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.48 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.529 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.518 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:145  column:13  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m141[0m  [36m(defn lvh-ready-to-go[0m
+  [36m142[0m  [36m  [s][0m
+  [36m143[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m144[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m145[0m  [1m    (u/say (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m            ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m146[0m  [36m    (and distracted drunk)))[0m
+  [36m147[0m  [36m[0m
+  [36m148[0m  [36m(def lvh-dialog-options[0m
+  [36m149[0m  [36m  (d/optional[0m
+  [36m150[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.506 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:145  column:13  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m141[0m  [36m(defn lvh-ready-to-go[0m
+  [36m142[0m  [36m  [s][0m
+  [36m143[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m144[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m145[0m  [1m    (u/say (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m            ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m146[0m  [36m    (and distracted drunk)))[0m
+  [36m147[0m  [36m[0m
+  [36m148[0m  [36m(def lvh-dialog-options[0m
+  [36m149[0m  [36m  (d/optional[0m
+  [36m150[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.765 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:146  column:13  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m142[0m  [36m  [s][0m
+  [36m143[0m  [36m  (u/say "checking if lvh is reading to go")[0m
+  [36m144[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m145[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m146[0m  [1m    (u/say (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m            ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m147[0m  [36m    (and distracted drunk)))[0m
+  [36m148[0m  [36m[0m
+  [36m149[0m  [36m(def lvh-dialog-options[0m
+  [36m150[0m  [36m  (d/optional[0m
+  [36m151[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.453 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:146  column:13  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m142[0m  [36m  [s][0m
+  [36m143[0m  [36m  (u/say "checking if lvh is ready to go")[0m
+  [36m144[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m145[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m146[0m  [1m    (u/say (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m            ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m147[0m  [36m    (and distracted drunk)))[0m
+  [36m148[0m  [36m[0m
+  [36m149[0m  [36m(def lvh-dialog-options[0m
+  [36m150[0m  [36m  (d/optional[0m
+  [36m151[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.775 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:146  column:13  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m142[0m  [36m  [s][0m
+  [36m143[0m  [36m  (u/say "checking if lvh is ready to go")[0m
+  [36m144[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m145[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m146[0m  [1m    (u/say (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m            ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m147[0m  [36m    (and distracted drunk)))[0m
+  [36m148[0m  [36m[0m
+  [36m149[0m  [36m(def lvh-dialog-options[0m
+  [36m150[0m  [36m  (d/optional[0m
+  [36m151[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.652 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:148  column:13  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m144[0m  [36m  [s][0m
+  [36m145[0m  [36m  (u/say "checking if lvh is ready to go")[0m
+  [36m146[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m147[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m148[0m  [1m    (u/say (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m            ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m149[0m  [36m    (and distracted drunk)))[0m
+  [36m150[0m  [36m[0m
+  [36m151[0m  [36m(def lvh-dialog-options[0m
+  [36m152[0m  [36m  (d/optional[0m
+  [36m153[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.628 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:149  column:13  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m145[0m  [36m  [s][0m
+  [36m146[0m  [36m  (u/say "checking if lvh is ready to go")[0m
+  [36m147[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m148[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m149[0m  [1m    (u/say (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m            ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m150[0m  [36m    (and distracted drunk)))[0m
+  [36m151[0m  [36m[0m
+  [36m152[0m  [36m(def lvh-dialog-options[0m
+  [36m153[0m  [36m  (d/optional[0m
+  [36m154[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.539 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.554 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:148  column:13  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m144[0m  [36m  [s][0m
+  [36m145[0m  [36m  (u/say "checking if lvh is ready to go")[0m
+  [36m146[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m147[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m148[0m  [1m    (u/say (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m            ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m149[0m  [36m    (and distracted drunk)))[0m
+  [36m150[0m  [36m[0m
+  [36m151[0m  [36m(def lvh-dialog-options[0m
+  [36m152[0m  [36m  (d/optional[0m
+  [36m153[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.496 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:148  column:13  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m144[0m  [36m  [s][0m
+  [36m145[0m  [36m  (u/say "checking if lvh is ready to go")[0m
+  [36m146[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m147[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m148[0m  [1m    (u/say (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m            ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m149[0m  [36m    (and distracted drunk)))[0m
+  [36m150[0m  [36m[0m
+  [36m151[0m  [36m(def lvh-dialog-options[0m
+  [36m152[0m  [36m  (d/optional[0m
+  [36m153[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.607 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:148  column:13  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m144[0m  [36m  [s][0m
+  [36m145[0m  [36m  (u/say "checking if lvh is ready to go")[0m
+  [36m146[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m147[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m148[0m  [1m    (u/say (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m            ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m149[0m  [36m    (and distracted drunk)))[0m
+  [36m150[0m  [36m[0m
+  [36m151[0m  [36m(def lvh-dialog-options[0m
+  [36m152[0m  [36m  (d/optional[0m
+  [36m153[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.569 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:148  column:13  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m144[0m  [36m  [s][0m
+  [36m145[0m  [36m  (u/say "checking if lvh is ready to go")[0m
+  [36m146[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m147[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m148[0m  [1m    (u/say (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m            ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m149[0m  [36m    (and distracted drunk)))[0m
+  [36m150[0m  [36m[0m
+  [36m151[0m  [36m(def lvh-dialog-options[0m
+  [36m152[0m  [36m  (d/optional[0m
+  [36m153[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.503 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:148  column:15  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m144[0m  [36m  [s][0m
+  [36m145[0m  [36m  (println "checking if lvh is ready to go")[0m
+  [36m146[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m147[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m148[0m  [1m    (println (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m              ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m149[0m  [36m    (and distracted drunk)))[0m
+  [36m150[0m  [36m[0m
+  [36m151[0m  [36m(def lvh-dialog-options[0m
+  [36m152[0m  [36m  (d/optional[0m
+  [36m153[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.518 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:148  column:15  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m144[0m  [36m  [s][0m
+  [36m145[0m  [36m  (println "checking if lvh is ready to go")[0m
+  [36m146[0m  [36m  (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m147[0m  [36m        drunk ((d/event? :lvh-drunk) s)][0m
+  [33m148[0m  [1m    (println (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m              ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m149[0m  [36m    (and distracted drunk)))[0m
+  [36m150[0m  [36m[0m
+  [36m151[0m  [36m(def lvh-dialog-options[0m
+  [36m152[0m  [36m  (d/optional[0m
+  [36m153[0m  [36m   ("Who are you?"[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.484 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.467 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:184  column:28  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m180[0m  [36m               [s][0m
+  [36m181[0m  [36m               (println "checking if lvh is ready to go")[0m
+  [36m182[0m  [36m               (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m183[0m  [36m                     drunk ((d/event? :lvh-drunk) s)][0m
+  [33m184[0m  [1m                 (println (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m                           ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m185[0m  [36m                 (and distracted drunk)))[0m
+  [36m186[0m  [36m    :go-back)[0m
+  [36m187[0m  [36m[0m
+  [36m188[0m  [36m   ("<leave>"[0m
+  [36m189[0m  [36m    :go-back)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:184  column:28  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m180[0m  [36m               [s][0m
+  [36m181[0m  [36m               (println "checking if lvh is ready to go")[0m
+  [36m182[0m  [36m               (let [distracted ((d/event? :lvh-distracted) s)[0m
+  [36m183[0m  [36m                     drunk ((d/event? :lvh-drunk) s)][0m
+  [33m184[0m  [1m                 (println (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m                           ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m185[0m  [36m                 (and distracted drunk)))[0m
+  [36m186[0m  [36m    :go-back)[0m
+  [36m187[0m  [36m[0m
+  [36m188[0m  [36m   ("<leave>"[0m
+  [36m189[0m  [36m    :go-back)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.599 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:184  column:28  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m180[0m  [36m               [s][0m
+  [36m181[0m  [36m               (println "checking if lvh is ready to go")[0m
+  [36m182[0m  [36m               (let [distracted ((advenjure.dialogs/event? :lvh-distracted) s)[0m
+  [36m183[0m  [36m                     drunk ((advenjure.dialogs/event? :lvh-drunk) s)][0m
+  [33m184[0m  [1m                 (println (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m                           ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m185[0m  [36m                 (and distracted drunk)))[0m
+  [36m186[0m  [36m    :go-back)[0m
+  [36m187[0m  [36m[0m
+  [36m188[0m  [36m   ("<leave>"[0m
+  [36m189[0m  [36m    :go-back)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[36m----  Compiler Warning on   src/latadventure/rooms.cljc   line:184  column:28  ----[0m
+
+  [1mUse of undeclared Var latadventure.rooms/format[0m
+
+  [36m180[0m  [36m               [s][0m
+  [36m181[0m  [36m               (println "checking if lvh is ready to go")[0m
+  [36m182[0m  [36m               (let [distracted ((advenjure.dialogs/event? :lvh-distracted) s)[0m
+  [36m183[0m  [36m                     drunk ((advenjure.dialogs/event? :lvh-drunk) s)][0m
+  [33m184[0m  [1m                 (println (format "checked if lvh was distracted: " distracted  "or drunk: " drunk))[0m
+  [0m   [0m  [33m                           ^--- Use of undeclared Var latadventure.rooms/format[0m
+  [36m185[0m  [36m                 (and distracted drunk)))[0m
+  [36m186[0m  [36m    :go-back)[0m
+  [36m187[0m  [36m[0m
+  [36m188[0m  [36m   ("<leave>"[0m
+  [36m189[0m  [36m    :go-back)))[0m
+
+[36m----  Compiler Warning : Please see src/latadventure/rooms.cljc  ----[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.494 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.418 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.489 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.47 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.438 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.423 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.431 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.465 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.438 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.421 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.469 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.422 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.436 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.458 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.507 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.444 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.428 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.372 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.384 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.374 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.549 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.47 seconds.[0m
+notifying browser that file changed:  out/latadventure/rooms.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.471 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 1.095 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 1.538 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.791 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 1.079 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.615 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.809 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.668 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.972 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.39 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.478 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.46 seconds.[0m
+notifying browser that file changed:  out/latadventure/core.js
