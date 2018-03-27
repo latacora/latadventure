@@ -16,35 +16,35 @@ return cljs.core.merge.call(null,verb_map,cljs.core.zipmap.call(null,verbs,cljs.
  */
 advenjure.verb_map.add_go_shortcuts = (function advenjure$verb_map$add_go_shortcuts(vmap){
 var new_map = vmap;
-var G__39285 = cljs.core.keys.call(null,advenjure.utils.direction_mappings);
-var vec__39286 = G__39285;
-var seq__39287 = cljs.core.seq.call(null,vec__39286);
-var first__39288 = cljs.core.first.call(null,seq__39287);
-var seq__39287__$1 = cljs.core.next.call(null,seq__39287);
-var dir = first__39288;
-var remain = seq__39287__$1;
+var G__40386 = cljs.core.keys.call(null,advenjure.utils.direction_mappings);
+var vec__40387 = G__40386;
+var seq__40388 = cljs.core.seq.call(null,vec__40387);
+var first__40389 = cljs.core.first.call(null,seq__40388);
+var seq__40388__$1 = cljs.core.next.call(null,seq__40388);
+var dir = first__40389;
+var remain = seq__40388__$1;
 var new_map__$1 = new_map;
-var G__39285__$1 = G__39285;
+var G__40386__$1 = G__40386;
 while(true){
 var new_map__$2 = new_map__$1;
-var vec__39289 = G__39285__$1;
-var seq__39290 = cljs.core.seq.call(null,vec__39289);
-var first__39291 = cljs.core.first.call(null,seq__39290);
-var seq__39290__$1 = cljs.core.next.call(null,seq__39290);
-var dir__$1 = first__39291;
-var remain__$1 = seq__39290__$1;
+var vec__40390 = G__40386__$1;
+var seq__40391 = cljs.core.seq.call(null,vec__40390);
+var first__40392 = cljs.core.first.call(null,seq__40391);
+var seq__40391__$1 = cljs.core.next.call(null,seq__40391);
+var dir__$1 = first__40392;
+var remain__$1 = seq__40391__$1;
 if((dir__$1 == null)){
 return new_map__$2;
 } else {
 var regexp = [cljs.core.str("^"),cljs.core.str(dir__$1),cljs.core.str("$")].join('');
-var G__39292 = advenjure.verb_map.add_verb.call(null,new_map__$2,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [regexp], null),((function (new_map__$1,G__39285__$1,regexp,new_map__$2,vec__39289,seq__39290,first__39291,seq__39290__$1,dir__$1,remain__$1,new_map,G__39285,vec__39286,seq__39287,first__39288,seq__39287__$1,dir,remain){
-return (function (p1__39271_SHARP_){
-return advenjure.verbs.go.call(null,p1__39271_SHARP_,dir__$1);
-});})(new_map__$1,G__39285__$1,regexp,new_map__$2,vec__39289,seq__39290,first__39291,seq__39290__$1,dir__$1,remain__$1,new_map,G__39285,vec__39286,seq__39287,first__39288,seq__39287__$1,dir,remain))
+var G__40393 = advenjure.verb_map.add_verb.call(null,new_map__$2,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [regexp], null),((function (new_map__$1,G__40386__$1,regexp,new_map__$2,vec__40390,seq__40391,first__40392,seq__40391__$1,dir__$1,remain__$1,new_map,G__40386,vec__40387,seq__40388,first__40389,seq__40388__$1,dir,remain){
+return (function (p1__40372_SHARP_){
+return advenjure.verbs.go.call(null,p1__40372_SHARP_,dir__$1);
+});})(new_map__$1,G__40386__$1,regexp,new_map__$2,vec__40390,seq__40391,first__40392,seq__40391__$1,dir__$1,remain__$1,new_map,G__40386,vec__40387,seq__40388,first__40389,seq__40388__$1,dir,remain))
 );
-var G__39293 = remain__$1;
-new_map__$1 = G__39292;
-G__39285__$1 = G__39293;
+var G__40394 = remain__$1;
+new_map__$1 = G__40393;
+G__40386__$1 = G__40394;
 continue;
 }
 break;
@@ -57,13 +57,13 @@ return cljs.core.reverse.call(null,cljs.core.sort_by.call(null,cljs.core.count,c
 advenjure.verb_map.msort_verbs = cljs.core.memoize.call(null,advenjure.verb_map.sort_verbs);
 advenjure.verb_map.regexp = XRegExp;
 advenjure.verb_map.match_verb = (function advenjure$verb_map$match_verb(text,verb){
-var vec__39297 = cljs.core.re_find.call(null,advenjure.verb_map.regexp.call(null,verb),text);
-var seq__39298 = cljs.core.seq.call(null,vec__39297);
-var first__39299 = cljs.core.first.call(null,seq__39298);
-var seq__39298__$1 = cljs.core.next.call(null,seq__39298);
-var head = first__39299;
-var tokens = seq__39298__$1;
-var full = vec__39297;
+var vec__40398 = cljs.core.re_find.call(null,advenjure.verb_map.regexp.call(null,verb),text);
+var seq__40399 = cljs.core.seq.call(null,vec__40398);
+var first__40400 = cljs.core.first.call(null,seq__40399);
+var seq__40399__$1 = cljs.core.next.call(null,seq__40399);
+var head = first__40400;
+var tokens = seq__40399__$1;
+var full = vec__40398;
 if((!((full == null))) && (!(cljs.core.coll_QMARK_.call(null,full)))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [verb,cljs.core.List.EMPTY], null);
 } else {
@@ -81,4 +81,4 @@ advenjure.verb_map.find_verb = (function advenjure$verb_map$find_verb(verb_map,t
 return cljs.core.some.call(null,cljs.core.partial.call(null,advenjure.verb_map.match_verb,text),advenjure.verb_map.msort_verbs.call(null,verb_map));
 });
 
-//# sourceMappingURL=verb_map.js.map?rel=1522121094693
+//# sourceMappingURL=verb_map.js.map?rel=1522181439338

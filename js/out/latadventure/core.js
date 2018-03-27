@@ -20,4 +20,4 @@ cljs.core.enable_console_print_BANG_.call(null);
 
 latadventure.core.start_BANG_.call(null);
 
-//# sourceMappingURL=core.js.map?rel=1522180235100
+//# sourceMappingURL=core.js.map?rel=1522181797574
